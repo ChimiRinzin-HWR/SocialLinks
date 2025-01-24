@@ -6,7 +6,7 @@
     --color-grey-900: hsl(0, 0%, 8%);
 }
 body{
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-size: 14px;
     background-color: var(--color-grey-900);
 }
@@ -31,9 +31,11 @@ button{
     border-radius: 10px;
     cursor: pointer; 
     border: none;
-    background:var(--color-grey-700);
+    font-family: 'Poppins';
+    background:rgb(73, 73, 73);
     color: var(--color-white);
-    font-weight: 600;
+    font-weight: 500;
+    transition: 0.4s;
 }
 .pfp{
     width: 40%;
@@ -62,4 +64,5 @@ button{
 button:hover{
     background: var(--color-green);
     color: var(--color-grey-900);
+    scale: 1.05;
 }
